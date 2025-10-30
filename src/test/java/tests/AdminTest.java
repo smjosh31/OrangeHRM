@@ -1,6 +1,6 @@
 package tests;
 
-import base.BaseTest;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -10,7 +10,7 @@ import pages.LoginPage;
 import pages.UserManagementPage;
 import utilities.ConfigReader;
 import utilities.Excel;
-import utilities.base.BaseTest1;
+import utilities.base.BaseTest;
 
 import java.time.Duration;
 
