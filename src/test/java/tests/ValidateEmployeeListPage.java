@@ -7,6 +7,8 @@ import org.testng.annotations.Test;
 import pages.EmployeeLIstPage;
 import pages.LoginPage;
 import utilities.Excel;
+import utilities.base.BaseTest;
+
 
 import java.time.Duration;
 
@@ -14,7 +16,7 @@ import static org.testng.Assert.assertTrue;
 
 
 
-    public class ValidateEmployeeListPage extends base.BaseTest {
+    public class ValidateEmployeeListPage extends BaseTest {
         @Test
         public void adminTest() throws InterruptedException {
             LoginPage login = new LoginPage(driver);

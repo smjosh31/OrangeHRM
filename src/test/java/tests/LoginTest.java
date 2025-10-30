@@ -1,6 +1,6 @@
 package tests;
 
-import base.BaseTest;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -10,13 +10,13 @@ import org.testng.annotations.Test;
 import pages.LoginPage;
 import utilities.ConfigReader;
 import utilities.Excel;
-import utilities.base.BaseTest1;
+import utilities.base.BaseTest;
 
 import java.time.Duration;
 
 import static org.testng.Assert.assertTrue;
 
-public class LoginTest extends BaseTest1 {
+public class LoginTest extends BaseTest{
 
     @Test
     public void logintest() throws InterruptedException {
