@@ -21,6 +21,7 @@ import static org.testng.Assert.assertTrue;
     public void adminTest() throws InterruptedException {
         LoginPage login = new LoginPage(driver);
         Thread.sleep(1000);
+        //test
         //  login.verifyLogin(ConfigReader.getProperty("username"), ConfigReader.getProperty("password"));
 
         String UN = Excel.getValue("src/test/resources/ExcelInputdata.xlsx", "Sheet1", 1, 0);
