@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout the code    gggggfgi
+      # 1️⃣ Checkout the code    ggbbgggfgi
       - name: Checkout repository
         uses: actions/checkout@v4
 
